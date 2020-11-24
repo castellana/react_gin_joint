@@ -1,38 +1,105 @@
-.App {
+/* font-family: 'Tinos', serif;
+font-family: 'Yantramanav', sans-serif; */
+/* color: #BB7043; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url("components/bar1.png") center / cover no-repeat;
+  /* background: violet; */
+  color: #fff;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 60vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+h1 {
+  font-family: 'Yantramanav', sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: 10px;
+  width: 40%;
+  margin: 0 auto;
+}
+.span-h1 {
+  display: block;
+  font-size: 7rem;
 }
 
-.App-link {
-  color: #61dafb;
+.about-section {
+  background-color: #212121;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.article-description {
+  width: 30%;
+  padding: 10vh 0 0 5%;
+  color: #fff;
+}
+.description-h2, .description-h3, .acts-h3{
+  text-transform: uppercase;
+}
+.description-h2 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 2vh 0;
+}
+.article-description p {
+  font-size: 1.4rem;
+}
+button {
+  padding: 2vh 40px;
+  background: #BB7043;
+  font-size: 1rem;
+  margin-top: 2vh;
+}
+/* .about-image {
+  
+} */
+#acts-section {
+  height: 80vh;
+  background:  #BB7043;
+}
+.grid {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  /* width: 90%; */
+  display: flex;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.acts-h3 {
+  width: 80%;
+  padding: 5vh 0 5vh;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.timetable{
+  font-size: 1.4rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.show-text {
+  font-weight: 400;
+  font-size: 1.2rem;
+  width: 70%;
 }
