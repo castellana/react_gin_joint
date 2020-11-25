@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "id": 1,
         "img": "/assets/img/jazz.png" ,
         "title":"Jazz n'Jive",
         "days": "Every Monday",
@@ -7,6 +8,7 @@
         "description":"Jazz up your Monday nights with intimate and lively performances by a rotating selection of renowned bands."
     },
     {
+        "id": 2,
         "img": "/assets/img/burlesque.png" ,
         "title":"Burlesque After Dark",
         "days": "Every Tuesday & Sunday",
@@ -14,6 +16,7 @@
         "description":"Enter the world of burlesque and lose yourself in enticing witty performances, exceptional cocktails, and lively music."
     },
     {
+        "id": 3,
         "img": "/assets/img/djmusic.png" ,
         "title":"DJs & Dance Tracks",
         "days": "Every Thursday, Friday & Saturday night",

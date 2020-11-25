@@ -4,14 +4,16 @@ font-family: 'Yantramanav', sans-serif; */
 * {
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
-
+main {
+  background: #212121;
+}
 .header {
-  background: url("components/bar1.png") center / cover no-repeat;
-  /* background: violet; */
+  background: url("../src/img/bar1.png") center / cover no-repeat;
   color: #fff;
   text-align: center;
-  height: 60vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,77 +31,133 @@ h1 {
   font-size: 7rem;
 }
 
-.about-section {
-  background-color: #212121;
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-
+#about-section {
+  min-height: 100vh;
+  background: url("../src/img/bar2_1.png") right / 60% no-repeat;
+  margin: 15vh 0 10vh;
 }
 
-.article-description {
+.description {
   width: 30%;
-  padding: 10vh 0 0 5%;
+  padding: 10vh 0 0 7%;
   color: #fff;
 }
-.description-h2, .description-h3, .acts-h3{
+.description-title2, .description-title1, .acts-h3{
   text-transform: uppercase;
 }
-.description-h2 {
-  font-size: 5rem;
+.description-title2 {
+  font-size: 4rem;
   font-weight: 400;
   margin: 2vh 0;
 }
-.article-description p {
+.description-p {
   font-size: 1.4rem;
+  width: 75%;
 }
 button {
   padding: 2vh 40px;
   background: #BB7043;
   font-size: 1rem;
   margin-top: 2vh;
+  border: none;
 }
-/* .about-image {
-  
-} */
-#acts-section {
-  height: 80vh;
+
+#acts {
+  min-height: 80vh;
   background:  #BB7043;
 }
-.grid {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
-  /* width: 90%; */
-  display: flex;
+.acts-h3 {
+  width: 75%;
+  padding: 15vh 0;
   margin: 0 auto;
+  /* font-weight: 400; */
+  word-spacing: 3px;
 }
-
-.container {
+.grid {
+  display: flex;
+  justify-content: center;
+}
+#show {
+  width: 30%;
+  margin-bottom: 20vh;
+}
+.foto-container {
   position: relative;
-
+  min-height: 40vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.foto-container img {
+  width: 100%;
 }
 .centered {
   position: absolute;
   top: 35%;
   color: #fff;
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 2.7rem;
+  /* font-weight: 400; */
+  width: 52%;
 }
-.acts-h3 {
-  width: 80%;
-  padding: 5vh 0 5vh;
-  margin: 0 auto;
-  font-weight: 400;
-  font-size: 1.4rem;
-}
+
 .timetable{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 .show-text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 1.2rem;
   width: 70%;
+}
+
+
+#cocktail {
+  background: url(../src/img/3gins.png) right / 60% no-repeat;
+  min-height: 100vh;
+}
+
+#instagram {
+  min-height: 110vh;
+  display: flex;
+
+}
+#insta-card {
+  width:50%;
+  text-align: center;
+  border: 1px solid #7F7F7F;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3vh;
+}
+figure {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  width:70%;
+}
+.insta-p {
+  /* width: 70%; */
+  font-size: 2rem;
+  padding: 0;
+}
+.insta-h3 {
+  text-transform: uppercase;
+  margin-top: 4vh;
+}
+.insta-logo {
+  margin-left: 50%;
+}
+
+#footer-nav {
+  height: 40vh;
+}
+  
+footer {
+  height: 40vh;
 }

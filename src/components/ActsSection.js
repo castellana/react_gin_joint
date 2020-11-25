@@ -4,7 +4,7 @@ import Liveact from './Liveact'
 
 const ActsSection = () => {
     return (
-        <section id="acts-section">
+        <section id="acts">
             <h3 className= "acts-h3">Due to COVID-19 and the temporary closing of Bathtub Gin, our nightly entertainment is currently on pause. Stay tuned for updates on our reopening date and new events, coming soon!</h3>
             
             <div className="grid">
@@ -14,6 +14,7 @@ const ActsSection = () => {
                     showDay = {element.days}
                     showTime = {element.time}
                     showDescription = {element.description}
+                    showId = {element.id}
                     />)}
             </div>
         </section>
@@ -22,3 +23,4 @@ const ActsSection = () => {
 }
  
 export default ActsSection;
+
