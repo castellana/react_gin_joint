@@ -2,12 +2,12 @@
 const Footer = () => {
     return ( 
         <footer>
-            <img id="logo-bathtub" src="../img/logo_bathtub.png" alt=""/>
+            <img id="badewanne" src="./assets/img/badewanne.png" alt=""/>
 
-            <div>
-                <img src="../img/facebook_braun.png" alt=""/>
-                <img src="../img/instagram_braun.png" alt=""/>
-            </div>
+            {/* <div className="media-logos">
+                <img src="./assets/img/facebook_braun.png" alt=""/>
+                <img className="insta-braun" src="./assets/img/insta-braun.png" alt=""/>
+            </div> */}
         </footer>
      );
 }

@@ -9,6 +9,19 @@ font-family: 'Yantramanav', sans-serif; */
 main {
   background: #212121;
 }
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
 .header {
   background: url("../src/img/bar1.png") center / cover no-repeat;
   color: #fff;
@@ -128,6 +141,8 @@ button {
   width:50%;
   text-align: center;
   border: 1px solid #7F7F7F;
+  border-left: none;
+  border-bottom: none;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -148,16 +163,96 @@ figure {
 }
 .insta-h3 {
   text-transform: uppercase;
-  margin-top: 4vh;
+  margin: 4vh;
 }
 .insta-logo {
   margin-left: 50%;
 }
 
 #footer-nav {
-  height: 40vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  align-items: flex-end;
+  padding: 5vh 0;
+  border-bottom: 1px solid #7F7F7F; 
+  border-top: 1px solid #7F7F7F; 
 }
-  
+#footer-logo {
+  width: 13%;
+  margin-left: 10%;
+}
+#footer-nav ul {
+  text-transform: uppercase;
+  color: #BB7043;
+  list-style: none;
+}
+#footer-nav ul li:first-child{
+  margin-top: 2vh;
+}
+#footer-nav li {
+  color: #fff;
+}
+
 footer {
-  height: 40vh;
+  /* display: flex; */
+  align-items: center;
+  height: 25vh;
+}
+#badewanne {
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  /* display: inline-block; */
+}
+.media-logos {
+  margin-right: 10%;
+  display: inline-block;
+}
+.media-logos img {
+  padding: 10px;
+}
+#contact, #shop {
+  background:  #BB7043;
+}
+.contact-intro {
+  height: 60vh;
+  background: url(../src/img/contact_bar.svg) right / 50% no-repeat;
+}
+
+.contact-map {
+  background: url(../src/img/contact_map.png) center / cover no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-adress {
+  font-size: 4rem;
+  text-align: center;
+  background: #C4C4C4;
+  text-transform: uppercase;
+  width: 40%;
+  padding: 20px 0
+}
+
+.contact-form {
+  height: 60vh;
+}
+.contact-adress {
+  font-size: 3.5rem;
+}
+
+.open-shop {
+  background: url(./img/shop_bild.png) center / 100% no-repeat;
+  height: 85vh;
+}
+.coming-soon {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coming-h2 {
+  font-size: 7rem;
+  text-transform: uppercase;
 }
