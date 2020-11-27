@@ -14,7 +14,7 @@ const Contact = () => {
             </article>
 
             <article className="contact-map">
-                <h2 className="map-adress">132 9th Avenue New York</h2>   
+                <h2 className="map-adress">132 9th Avenue<br/> New York</h2>   
             </article>
 
             <article className="contact-form">

@@ -81,7 +81,6 @@ button {
   width: 75%;
   padding: 15vh 0;
   margin: 0 auto;
-  /* font-weight: 400; */
   word-spacing: 3px;
 }
 .grid {
@@ -148,6 +147,9 @@ button {
 }
 figure {
   width:70%;
+}
+.insta-img {
+  width: 90%;
 }
 .insta-p {
   font-size: 2rem;
@@ -308,3 +310,47 @@ textarea {
   font-size: 7rem;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 1280px) {
+  h1 {
+    font-size: 4rem;
+    width: 55%;
+  }
+  span-h1 {
+    font-size: 6rem;
+  }
+  #about-section {
+    height: 80vh;
+  }
+  #acts {
+    height: 100vh;
+  }
+  .acts-h3 {
+    padding: 8vh 0;
+  }
+  .centered {
+    width: 75%
+  }
+  .insta-p {
+    font-size: 1.5rem;
+  }
+  .contact-intro {
+    height: 80vh;
+  }
+  .uppercase {
+    font-size: 3rem;
+  }
+  .contact_details {
+    width: 30%;
+  }
+  .contact_details p {
+    width: unset;
+  }
+  .map-adress {
+    font-size: 3rem;
+  }
+  .contact-form {
+    height: 90vh;
+  }
+}
+
