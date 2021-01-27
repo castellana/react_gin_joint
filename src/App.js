@@ -10,9 +10,10 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import FooterNav from './components/FooterNav'
 import Footer from './components/Footer'
+import Entertainment from './components/Entertainment'
 import Shop from './components/Shop'
 import Contact from './components/Contact'
-import Events from './components/Events'
+import Menus from './components/Menus'
 
 
 function App() {
@@ -22,9 +23,9 @@ function App() {
         <Navigation />
         <Switch>
             <Route path="/" exact component={Home}/>
-            {/* <Route path="/entertainment" component={Entertainment}/> */}
+            <Route path="/entertainment" component={Entertainment}/>
             <Route path="/shop" component={Shop}/>
-            <Route path="/events/" component={Events}/>
+            <Route path="/events/" component={Menus}/>
             <Route path="/contact" component={Contact}/>
             {/* <Route path="*">
               <h1>404</h1>
