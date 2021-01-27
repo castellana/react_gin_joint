@@ -5,7 +5,7 @@ const Navigation = () => {
         <nav id="nav-bar">
             <ul>
                 <li className="nav-item">
-                    <NavLink to="/" activeStyle={{color: '#DEB307'}} className="nav-link">Home</NavLink>
+                    <NavLink to="/" exact activeStyle={{color: '#DEB307'}} className="nav-link">Home</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/entertainment" activeStyle={{color: '#DEB307'}}className="nav-link">Entertainment</NavLink>
