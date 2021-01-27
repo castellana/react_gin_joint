@@ -1,24 +1,23 @@
-import { Link } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
     return ( 
         <nav id="nav-bar">
             <ul>
                 <li className="nav-item">
-                    <Link to="/" className="nav-link">Home</Link>
+                    <NavLink to="/" activeStyle={{color: '#DEB307'}} className="nav-link">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to="/entertainment" className="nav-link">Entertainment</Link>
+                    <NavLink to="/entertainment" activeStyle={{color: '#DEB307'}}className="nav-link">Entertainment</NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to="/shop" className="nav-link">Shop</Link>
+                    <NavLink to="/shop" activeStyle={{color: '#DEB307'}} className="nav-link">Shop</NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to="/events" className="nav-link">Events</Link>
+                    <NavLink to="/events" activeStyle={{color: '#DEB307'}} className="nav-link">Events</NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to="/contact" className="nav-link">Contact</Link>
+                    <NavLink to="/contact" activeStyle={{color: '#DEB307'}} className="nav-link">Contact</NavLink>
                 </li>
             </ul>
         </nav>

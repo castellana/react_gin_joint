@@ -3,10 +3,13 @@
   padding: 0;
   font-weight: 400;
   font-family: 'Yantramanav', sans-serif;
+  text-decoration: none;
 }
+
 main {
   background: #212121;
 }
+
 
 #nav-bar ul {
   display: flex;
@@ -15,11 +18,13 @@ main {
   height: 50px;
   list-style: none;
 }
+
 .nav-link {
-  text-decoration: none;
-  color: #fff;
   text-transform: uppercase;
+  color: #fff;
 }
+
+
 .header {
   background: url("../src/img/bar1.png") center / cover no-repeat;
   color: #fff;
